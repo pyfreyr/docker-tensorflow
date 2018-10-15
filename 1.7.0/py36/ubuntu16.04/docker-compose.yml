@@ -1,0 +1,5 @@
+version: '3'
+services:
+  tensorflow:
+    build: .
+    image: pyfreyr/tensorflow:1.7.0-gpu-py36-ubuntu16.04
