@@ -1,6 +1,6 @@
-FROM pyfreyr/python:3.6-ubuntu16.04
+FROM pyfreyr/python:3.5-ubuntu16.04
 
-RUN conda install -y tensorflow-gpu=1.7.0 && \
+RUN conda install -y tensorflow-gpu=1.11.0 && \
     conda clean -tipsy
 
 RUN pip install absl-py

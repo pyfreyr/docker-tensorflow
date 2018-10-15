@@ -1,6 +1,6 @@
-FROM pyfreyr/python:3.5-centos7
+FROM pyfreyr/python:3.6-centos7
 
-RUN conda install -y tensorflow-gpu=1.7.0 && \
+RUN conda install -y tensorflow-gpu=1.11.0 && \
     conda clean -tipsy
 
 RUN pip install absl-py
