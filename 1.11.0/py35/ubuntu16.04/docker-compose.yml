@@ -1,5 +1,0 @@
-version: '3'
-services:
-  tensorflow:
-    build: .
-    image: pyfreyr/tensorflow:1.11.0-gpu-py35-ubuntu16.04
